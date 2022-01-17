@@ -1,0 +1,125 @@
+body{
+    font-family: 'Roboto',sans-serif;
+    background:whitesmoke;
+}
+.navbar .navbar-brand{
+    margin: 0 40px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    color: crimson;
+}
+.collapse {
+      margin-right: 50px;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    align-items: left; 
+    transition: .6s ease all; 
+}
+header{
+    margin-top: 150px;
+}
+.testimonio{
+
+    background: wheat;
+    padding: 40px 0;
+    margin-top: 160px;
+    text-align: center;
+}
+ .info-two{ 
+    background: white;
+}
+/* 
+FOOTER
+*/
+.footer{
+    background: black;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.footer h2 {
+    padding-top: 20px;
+  
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+    color: crimson;
+    transition: 1s ease all;
+    
+}
+
+.footer h3 {
+
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+    color: crimson;
+    transition: 1s ease all;
+}
+
+.footer h2 i:hover {
+    color: crimson;
+}
+
+.footer .redes-sociales {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.footer .redes-sociales a {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    background: white;
+    color: orange;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin: 0 30px;
+
+}
+
+.footer .github i {
+    color: black;
+}
+
+.footer .instagram i {
+    color: #c13584;
+}
+
+.footer .email i {
+    color: dodgerblue;
+}
+
+.footer .github:hover {
+    background: rgb(31, 30, 30);
+}
+
+.footer .instagram:hover {
+    background: #c13584;
+}
+
+.footer .email:hover {
+    background: dodgerblue;
+}
+
+.footer .github i:hover {
+    color: white;
+}
+
+.footer .instagram i:hover {
+    color: white;
+}
+
+.footer .email i:hover {
+    color: white;
+}
