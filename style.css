@@ -52,6 +52,16 @@ FOOTER
     transition: 1s ease all;
     
 }
+.footer h2 a{
+    color: crimson;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s ease all;
+}
+.footer h2 a:hover{
+    color: floralwhite;
+    letter-spacing: 5px;
+}
 
 .footer h3 {
 
